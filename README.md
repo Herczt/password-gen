@@ -6,4 +6,4 @@ This project is a basic password generator written in javascript. When visiting 
 
 ## Screenshots
 
-<img src="https://ibb.co/zZPDTjz" width="75%" height="60%">
+<img src="https://i.ibb.co/JHrgw09/03-javascript-homework-demo.png">
