@@ -46,7 +46,7 @@ console.log(confirmValid[1])
 console.log(confirmValid[2])
 console.log(confirmValid[3])
 
-let passString = " "
+let passString = ""
 
 
 confirmValid[0] === true ? passString = passString.concat(upperCaseChar) : console.log("false")
@@ -55,7 +55,7 @@ confirmValid[2] === true ? passString = passString.concat(specialChar) : console
 confirmValid[3] === true ? passString = passString.concat(numChar) : console.log("false")
 
 
-let finalPass = " "
+let finalPass = ""
 
 
 function generatePassword(){ for (let i = 0; i < charVar; i++){
