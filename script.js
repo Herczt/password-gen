@@ -58,7 +58,9 @@ confirmValid[3] === true ? passString = passString.concat(numChar) : console.log
 let finalPass = ""
 
 
-function generatePassword(){ for (let i = 0; i < charVar; i++){
+function generatePassword(){ 
+  finalPass = ""
+  for (let i = 0; i < charVar; i++){
   finalPass += passString[Math.floor(Math.random() * passString.length)]
 }
 return finalPass
